@@ -18,3 +18,8 @@ Desde la terminal, navegue a la carpeta `k6/` y ejecute:
 
 ```bash
 k6 run login-load.js
+```
+
+```bash
+k6 run login-load.js --summary-export=reports/summary.json
+```
