@@ -13,6 +13,18 @@ Este repositorio contiene los scripts y artefactos para la prueba de carga del s
 2. Asegurar que `k6` está en el PATH del sistema.
 3. Verificar el archivo de datos en `k6/data/users.csv`.
 
+## Instalación widget
+En el caso de no tener instalado k6, ejecutar el siguiente comando en la terminal:
+
+Windows
+```bash
+winget install k6.k6
+```
+macOS
+```bash
+brew install k6
+```
+
 ## Ejecución (K6)
 Desde la terminal, navegue a la carpeta `k6/` y ejecute:
 
